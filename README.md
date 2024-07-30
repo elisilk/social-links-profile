@@ -50,6 +50,7 @@ Users should be able to:
 ### Continued development
 
 - [Principles of writing consistent, idiomatic CSS](https://github.com/necolas/idiomatic-css) - I want to be more consistent and organized in how I order my CSS files and provide comments.
+- I think it's also time for me to experiment with a [CSS pre-processor](https://developer.mozilla.org/en-US/docs/Glossary/CSS_preprocessor). [Which one should I try?](https://blog.openreplay.com/css-preprocessors-comprehensive-comparison/) I like that [Less](https://lesscss.org/) has a [Browser Usage option](https://lesscss.org/usage/#using-less-in-the-browser), which would make it super easy to get started without also implementing a pre-compiler for asset preprocessing.
 
 ### Useful resources
 
