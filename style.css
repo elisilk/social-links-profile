@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400, 600, 700;
+  src: url("assets/fonts/Inter-VariableFont_slnt,wght.ttf") format("truetype");
+}
+
+:root {
+  --ff-body: "Inter", sans-serif;
+
+  --fw-regular: 400;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-500: hsl(0, 0%, 20%);
+  --clr-neutral-700: hsl(0, 0%, 12%);
+  --clr-neutral-900: hsl(0, 0%, 8%);
+
+  --clr-primary-green: hsl(75, 94%, 57%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+html {
+  font-family: var(--ff-body);
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-900);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile {
+  /* min-width: calc(375px - 24px); */
+  /* width: 375px; */
+  width: calc(100% - 48px);
+  max-width: 384px;
+  margin: 24px;
+  margin-block-start: 20px;
+  padding: 24px;
+  background-color: var(--clr-neutral-700);
+  border-radius: 20px;
+}
+
+.profile__header {
+  text-align: center;
+  font-weight: var(--fw-bold);
+}
+
+.profile__avatar {
+  width: 88px;
+  margin-inline: auto;
+  border-radius: 50%;
+}
+
+.profile__name {
+  margin-block-start: 28px;
+  font-weight: var(--fw-bold);
+  font-size: 24px;
+  letter-spacing: -0.25px;
+}
+
+.profile__address {
+  margin-block-start: 9px;
+  color: var(--clr-primary-green);
+  font-weight: var(--fw-bold);
+  font-size: 14px;
+}
+
+.profile__desc {
+  font-size: 14px;
+  font-weight: var(--fw-regular);
+  margin-block-start: 28px;
+}
+
+.profile__links-list {
+  list-style: none;
+  margin: 0;
+  margin-block-start: 28px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+}
+
+.profile__link,
+.profile__link:visited {
+  display: block;
+  padding-block: 12px;
+  border-radius: 5px;
+  color: var(--clr-neutral-100);
+  background-color: var(--clr-neutral-500);
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: var(--fw-bold);
+}
+
+.profile__link:active,
+.profile__link:hover {
+  color: var(--clr-neutral-700);
+  background-color: var(--clr-primary-green);
+}
+
+@media (min-width: 736px) {
+  .profile {
+    /* width: 352px; */
+    padding: 40px;
+    border-radius: 10px;
+  }
+}
+
+/* 
+
+Mobile design
+total width: 375px
+container width: 327px
+margin inline: (375 - 327) / 2 = 24px
+
+Desktop design
+total width: 1440px
+container width: 384px
+
+*/
