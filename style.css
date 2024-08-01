@@ -118,7 +118,8 @@ body {
 }
 
 .profile__link:active,
-.profile__link:hover {
+.profile__link:hover,
+.profile__link:focus {
   color: var(--clr-neutral-700);
   background-color: var(--clr-primary-green);
 }
