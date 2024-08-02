@@ -105,6 +105,7 @@ body {
 }
 
 .profile__link,
+.profile__link:link,
 .profile__link:visited {
   display: block;
   padding-block: 12px;
@@ -117,9 +118,9 @@ body {
   font-weight: var(--fw-bold);
 }
 
-.profile__link:active,
 .profile__link:hover,
-.profile__link:focus {
+.profile__link:focus,
+.profile__link:active {
   color: var(--clr-neutral-700);
   background-color: var(--clr-primary-green);
 }

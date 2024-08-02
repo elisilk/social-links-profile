@@ -46,6 +46,8 @@ Users should be able to:
 ### What I learned
 
 - [Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - I still have to get more comfortable with Flex, especially knowing [what is the main axis and what is the cross axis](https://developer.mozilla.org/en-US/docs/Web/CSS/flex), and then how that changes to use of and behavior of the [align-\* vs. justify-\* properties](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Aligning_items_in_a_flex_container). I really wanted to create a profile box that filled the available space but had a max width after which point it would no longer grow.
+- [Link Pseudo-Classes](https://css-tricks.com/snippets/css/link-pseudo-classes-in-order/) - I have trouble remembering which [pseudo-classes](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes) to use with links, and what each of their purposes are. Chris Coyier has a handy mnemonic: "Lord Vader Hates Fluffy Animals". And for this challenge in particular, it was important to include both the hover and the focus states, which I forgot in my initial solution. Whoops.
+- [Style focus](https://web.dev/articles/style-focus) - Of course, that then leads me into thinking about broader ideas related to indicating the [user facing state](https://css-tricks.com/user-facing-state/) and [designing with accessibility forefront in mind](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Guides) more generally (e.g., [using toggle buttons](https://inclusive-components.design/toggle-button/)).
 
 ### Continued development
 
